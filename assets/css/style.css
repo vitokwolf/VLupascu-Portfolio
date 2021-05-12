@@ -34,8 +34,8 @@ body {
       text-decoration: none;
   }
 
-  header nav {
-      margin: 10px;
+  .top-nav {
+      margin: 10px 30px;
   }
 
   header nav ul {
@@ -52,3 +52,50 @@ body {
       font-size: 20px;
   }
   /* end header/nav style */
+
+/* hero styles start */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img {
+    width: 300px;
+    height: 331.72px;
+    margin: 50px 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-name {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.avatar-name h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.avatar-name h3 {
+    font-style: italic;
+    padding: 10px 0;
+}
+
+.avatar-name p {
+    font-weight: normal;
+    padding: 10px 0;
+}
+/* hero styles end */
+
+/* start bio */
+
+/* end bio */
