@@ -57,6 +57,20 @@ body {
   }
   /* end header/nav style */
 
+  /* start  footer style */
+  footer {
+    background-color: rgb(92, 90, 78);
+    padding: 40px 35px; 
+}
+
+footer h4 {
+  color: linen;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+  /* end footer style */
+
 /* hero styles start */
 .hero {
     background-image: url('../images/vintage_city_bkground.jpg');
@@ -112,3 +126,7 @@ img {
 /* start bio */
 
 /* end bio */
+
+section {
+    padding: 60px;
+  }
