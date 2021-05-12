@@ -15,23 +15,27 @@ body {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      padding: 15px 0;
-      border-top: double;
-      border-bottom: double;
-      border-color: dimgrey;
-      background-color: deepskyblue;
+      padding: 15px 0;     
+      background-color: rgb(92, 90, 78);
+      background-image: url("../images/vintage_city_bkground.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: 80%;
+      z-index: 9999;
   }
 
   header h1 {
-      color: orangered;
+      color: ivory;
       font-size: 26px;
+      font-style: italic;
       margin: 0;
       padding: 15px;
   }
 
   header a {
-      color: green;
+      color: ivory;
       text-decoration: none;
+      font-style: italic;
   }
 
   .top-nav {
@@ -55,20 +59,22 @@ body {
 
 /* hero styles start */
 .hero {
+    background-image: url('../images/vintage_city_bkground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.hero-img {
-    width: 300px;
-    height: 331.72px;
-    margin: 50px 0;
+    background-color: rgba(92, 90, 76, 50);
 }
 
 img {
-    width: 100%;
+    margin: 50px;
+    width: 400px;
     height: 100%;
+    border-radius: 15px;
+    opacity: 0.8;
 }
 
 .avatar-name {
@@ -81,18 +87,25 @@ img {
 }
 
 .avatar-name h2 {
-    font-size: 26px;
+    padding: 15px 0 10px 250px;
+    font-size: 50px;
     font-weight: bold;
-}
+    color:linen;
+    text-align: right;
+    }
 
 .avatar-name h3 {
+    padding: 15px 250px;
     font-style: italic;
-    padding: 10px 0;
+    font-size: 40px;
+    color: linen;
 }
 
 .avatar-name p {
-    font-weight: normal;
-    padding: 10px 0;
+    color: linen;
+    font-style: italic;
+    font-weight: normal;font-size: 30px;
+    padding: 15px 0;
 }
 /* hero styles end */
 
