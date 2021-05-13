@@ -1,3 +1,9 @@
+:root {
+    --primary-color: linen;
+    --secondary-color:#5c5a4e;
+    --tertiary-color: #f1dad3;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +13,7 @@
 body {
     color: blue;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--tertiary-color);
   }
 
   /* Header/Nav style */
@@ -16,7 +23,7 @@ body {
       justify-content: space-around;
       flex-wrap: wrap;
       padding: 15px 0;     
-      background-color: rgb(92, 90, 78);
+      background-color: var(--secondary-color);
       background-image: url("../images/vintage_city_bkground.jpg");
       background-size: cover;
       background-attachment: fixed;
@@ -25,7 +32,7 @@ body {
   }
 
   header h1 {
-      color: ivory;
+      color: var( --primary-color);
       font-size: 26px;
       font-style: italic;
       margin: 0;
@@ -33,7 +40,7 @@ body {
   }
 
   header a {
-      color: ivory;
+      color: var( --primary-color);
       text-decoration: none;
       font-style: italic;
   }
@@ -59,12 +66,12 @@ body {
 
   /* start  footer style */
   footer {
-    background-color: rgb(92, 90, 78);
+    background-color: var(--secondary-color);
     padding: 40px 35px; 
 }
 
 footer h4 {
-  color: linen;
+  color: var( --primary-color);
   font-size: 20px;
   margin: 0;
   text-align: center;
@@ -104,7 +111,7 @@ footer h4 {
     padding: 15px 0 10px 250px;
     font-size: 50px;
     font-weight: bold;
-    color:linen;
+    color:var( --primary-color);
     text-align: right;
     }
 
@@ -112,11 +119,11 @@ footer h4 {
     padding: 15px 250px;
     font-style: italic;
     font-size: 40px;
-    color: linen;
+    color: var( --primary-color);
 }
 
 .avatar-name p {
-    color: linen;
+    color: var( --primary-color);
     font-style: italic;
     font-weight: normal;font-size: 30px;
     padding: 15px 0;
@@ -127,7 +134,8 @@ footer h4 {
 .section-title {
     font-size: 48px;
     border-bottom: 3px solid;
-    color:#5c5a4e;
+    color: var(--secondary-color);
+;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -169,13 +177,14 @@ footer h4 {
   }
 
   .before {
-      background-color: linen;
-      color: #5c5a4e;
+      background-color:  var(--primary-color);
+      color: var(--secondary-color);
+;
   }
 
   .now {
-      background-color:#5c5a4e;
-      color:linen ;
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
   }
 /* end bio */
 
@@ -190,19 +199,52 @@ footer h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33%;
+    width: 45%;
 }
 
 .project img {
     flex: 0 30%;
     width: 100%;
-    height: 75%;   
-}
+    height: 500px;
+    border-radius: 15% 0;
+   }
 
 .project h3 {
-    text-align: center;
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-style: italic;
  }
 /* end projects section */
+
+/* start contact section */
+.contact-info{
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info h3 {
+    color: var(--primary-color);
+    font-size: 25px;
+    padding: 10px 0;    
+}
+
+.contact-info p{
+    padding: 10px 15px;
+    line-height: 2;
+}
+
+.contact-info address {
+    color: var(--primary-color);
+  }
+
+.contact-info a {
+    color:goldenrod;
+}  
+/* end contact section */
 
 /* utilities start */
 section {
