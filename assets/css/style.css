@@ -22,7 +22,11 @@ body {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      padding: 15px 0;     
+      padding: 15px 0;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      opacity: 0.8; 
       background-color: var(--secondary-color);
       background-image: url("../images/vintage_city_bkground.jpg");
       background-size: cover;
@@ -37,6 +41,7 @@ body {
       font-style: italic;
       margin: 0;
       padding: 15px;
+      text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);
   }
 
   header a {
@@ -57,10 +62,18 @@ body {
       list-style: none;
   }
 
-  header nav ul li {
+  header nav ul li a {
       padding: 10px 20px;
       font-weight: lighter;
       font-size: 20px;
+      text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);      
+  }
+
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
   }
   /* end header/nav style */
 
@@ -75,6 +88,7 @@ footer h4 {
   font-size: 20px;
   margin: 0;
   text-align: center;
+  text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);    
 }
   /* end footer style */
 
@@ -113,6 +127,7 @@ footer h4 {
     font-weight: bold;
     color:var( --primary-color);
     text-align: right;
+    text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);    
     }
 
 .avatar-name h3 {
@@ -120,6 +135,7 @@ footer h4 {
     font-style: italic;
     font-size: 40px;
     color: var( --primary-color);
+    text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);    
 }
 
 .avatar-name p {
@@ -127,6 +143,7 @@ footer h4 {
     font-style: italic;
     font-weight: normal;font-size: 30px;
     padding: 15px 0;
+    text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);   
 }
 /* hero styles end */
 
@@ -135,11 +152,11 @@ footer h4 {
     font-size: 48px;
     border-bottom: 3px solid;
     color: var(--secondary-color);
-;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
+    text-shadow: 0 0 10px rgba(230, 215, 6, 0.5);    
   }
   /*section title end  */
 
@@ -179,12 +196,35 @@ footer h4 {
   .before {
       background-color:  var(--primary-color);
       color: var(--secondary-color);
-;
+  }
+
+  .before h3 {
+      padding: 50px;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(230, 215, 6, 0.5);
+  }
+
+  .before p {
+      padding: 20px 35px 50px 35px;
+      line-height: 1.5;
+      text-shadow: 0 0 10px rgba(230, 215, 6, 0.5); 
   }
 
   .now {
       background-color: var(--secondary-color);
-      color: var(--primary-color);
+      color: var(--primary-color);      
+  }
+
+  .now h3 {
+      padding: 50px;
+      text-align: center;
+      text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);  
+  }
+
+  .now p{
+      padding: 50px 35px 20px 35px;
+      line-height: 1.5;
+      text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);  
   }
 /* end bio */
 
@@ -209,10 +249,16 @@ footer h4 {
     border-radius: 15% 0;
    }
 
+.project img:hover {
+    transform: scale(1.1);
+}
+
 .project h3 {
     color: var(--secondary-color);
     font-size: 30px;
     font-style: italic;
+    padding: 35px;
+    text-shadow: 0 0 10px rgba(230, 215, 6, 0.5);   
  }
 /* end projects section */
 
@@ -229,21 +275,24 @@ footer h4 {
 .contact-info h3 {
     color: var(--primary-color);
     font-size: 25px;
-    padding: 10px 0;    
+    padding: 10px 0; 
+    text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);     
 }
 
 .contact-info p{
     padding: 10px 15px;
     line-height: 2;
+    text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);  
 }
 
 .contact-info address {
     color: var(--primary-color);
+    text-shadow: 0 0 20px rgba(212, 11, 11, 0.5);  
   }
 
 .contact-info a {
     color:goldenrod;
-}  
+} 
 /* end contact section */
 
 /* utilities start */
