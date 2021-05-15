@@ -51,7 +51,7 @@ body {
   }
 
   header nav ul {
-      margin: 10px 30px;
+      margin: 10px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -98,7 +98,6 @@ footer h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: none;
 }
 
 .hero img {
@@ -114,6 +113,7 @@ footer h4 {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
 }
 
 .avatar-name h2 {
@@ -305,9 +305,6 @@ section {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 1024px) {
 
-    body {
-    overflow: none;
-    }
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -322,7 +319,7 @@ section {
     header nav ul {
       margin-top: 20px;
       width: 100%;
-      justify-content: center;
+      justify-content: space-around;
     }
   
     header nav ul li a {
@@ -402,13 +399,48 @@ section {
   }
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
+
+    .avatar-name h2 {
+      text-align: center;
+    }
+
+    .section-title {
+     font-size: 35px;
+    }
+
+    .story-bio p {
+      padding: 0;
+      font-size: 16px;
+    }
+
+    .before {
+      flex-direction: column-reverse;
+    }
        
     .project-img {
       width: 150%;
     }
 
     .project h3 {
+      padding: 10px 0;
+      font-size: 20px;
+    }
+
+    #Contact {
       padding: 10px;
+    }
+
+    .contact-info {
+      flex-direction: column;
+    }
+
+    .contact-info h3 {
+      font-size: 20px;
+      padding: 5px;
+    }
+
+    .contact-info address {
+      font-size: 17px;
     }
   
   }
