@@ -14,4 +14,6 @@
 - https://github.com/vitokwolf/VLupascu-Portfolio
 - https://vitokwolf.github.io/VLupascu-Portfolio/
 
+### Screenshot overlapped some elements, even though everything works on the actuall page:
+
 ![GitHub Logo](/assets/images/portfolio-screenshot.png)
