@@ -16,4 +16,4 @@
 
 ### Screenshot overlapped some elements, even though everything works on the actuall page:
 
-![GitHub Logo](/assets/images/portfolio-screenshot2.png)
+![GitHub Logo](./assets/images/Portfolio-screenshot2.png)
