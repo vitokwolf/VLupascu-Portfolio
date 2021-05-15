@@ -11,6 +11,7 @@
 
 ### Links:
 
-https://github.com/vitokwolf/VLupascu-Portfolio
-https://vitokwolf.github.io/VLupascu-Portfolio/
+> https://github.com/vitokwolf/VLupascu-Portfolio
+> https://vitokwolf.github.io/VLupascu-Portfolio/
 
+![Portfolio screenshot]](./assets/images/vitokwolf.github.io_VLupascu-Portfolio_)
