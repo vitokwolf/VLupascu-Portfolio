@@ -14,4 +14,4 @@
 - https://github.com/vitokwolf/VLupascu-Portfolio
 - https://vitokwolf.github.io/VLupascu-Portfolio/
 
-![Portfolio screenshot]](./assets/images/porfolio-screenshot.png)
+![Portfolio screenshot]](/assets/images/portfolio-screenshot.png)
