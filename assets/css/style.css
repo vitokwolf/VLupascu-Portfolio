@@ -248,7 +248,8 @@ footer h4 {
 
 .project img {
     flex: auto;
-    width: 100%;
+    width: 90%;
+    height: 24rem;
     object-fit: cover;
     border-radius: 0 15%;
    }
